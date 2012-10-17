@@ -1,1 +1,1 @@
-web:    java -cp target/classes:target/dependency/* com.cloudcontrol.example.App
+web:   java -cp target/classes:target/dependency/* com.cloudcontrol.example.App
