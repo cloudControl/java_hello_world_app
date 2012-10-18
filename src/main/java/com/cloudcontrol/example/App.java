@@ -28,9 +28,7 @@ public class App extends HttpServlet
         out.println("<HTML>");
         out.println(" <HEAD><TITLE>Java WEB/Jetty example</TITLE></HEAD>");
         out.println(" <BODY>");
-        out.print("<center>");
-        out.print(" This is Java WEB application with embedded Jetty server deployed in cloudControl platform");
-        out.print("</center>");
+        out.println(" Hello World!");
         out.println(" </BODY>");
         out.println("</HTML>");
         out.flush();
